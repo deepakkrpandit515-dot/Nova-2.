@@ -1,0 +1,17 @@
+{
+  "name": "nova-v11-master-global-intelligence",
+  "version": "11.1.0",
+  "private": true,
+  "description": "NOVA V11 master merged build: voice, global research, cloud sync and dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js && node --check public/nova3d.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}
